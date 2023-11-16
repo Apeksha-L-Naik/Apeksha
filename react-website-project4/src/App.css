@@ -1,0 +1,98 @@
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: -7px;
+  background-color: orange;
+}
+.logo{
+  margin-left: 40px;
+}
+.btn{
+  padding-top: 29px;
+}
+.btn1{
+  height: 36px;
+  width: 225px;
+  border: none;
+  border-radius: 8px;
+}
+.btn2{
+  height: 36px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  margin: 5px;
+  font-weight: 700;
+}
+.btn2:hover{
+  background-color: black;
+  color: aliceblue;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-right: 40px;
+}
+ul li{
+  list-style: none;
+  padding: 8px 40px;
+  font-weight: bold;
+}
+.active{
+  color: blue;
+}
+.head{
+  margin-top: 50px;
+  margin-left: 140px;
+  font-size: 50px;
+}
+.head span{
+  color: orange;
+}
+.para{
+  justify-content: center;
+  margin-left: 140px;
+  margin-right: 140px;
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+.btn3{
+  margin-left: 140px;
+  height: 40px;
+  width: 170px;
+  font-size:17px ;
+  margin-top: 19px;
+  border: 2px solid orange;
+  border-radius: 18px;
+  font-weight: 1000;
+  background-color: white;
+}
+.btn3:hover{
+  background-color: orange;
+  color: aliceblue;
+}
+.about{
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+}
+.name{
+  justify-content: center;
+  text-align: center;
+  margin-top: 82px;
+  color: orange;
+}
+.para1{
+  justify-content: center;
+  text-align: center;
+  margin-left: 390px;
+  margin-right: 390px;
+  margin-top: 32px;
+  font-size: 18px;
+}
