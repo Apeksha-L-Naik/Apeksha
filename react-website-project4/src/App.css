@@ -36,14 +36,20 @@ ul{
   justify-content: center;
   text-align: center;
   margin-right: 40px;
+  list-style: none;
+  text-decoration: none;
 }
 ul li{
   list-style: none;
   padding: 8px 40px;
   font-weight: bold;
+  text-decoration: none;
 }
 .active{
   color: blue;
+  text-decoration: none;
+  
+  
 }
 .head{
   margin-top: 50px;
@@ -64,18 +70,23 @@ ul li{
 .btn3{
   margin-left: 140px;
   height: 40px;
-  width: 170px;
+  width: 280px;
+  padding: 7px;
   font-size:17px ;
   margin-top: 19px;
   border: 2px solid orange;
   border-radius: 18px;
   font-weight: 1000;
-  background-color: white;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 40px;
 }
 .btn3:hover{
   background-color: orange;
   color: aliceblue;
+  cursor: pointer;
 }
+
 .about{
   justify-content: center;
   text-align: center;

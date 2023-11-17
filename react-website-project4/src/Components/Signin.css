@@ -1,0 +1,87 @@
+.container{
+    margin-top: 100px;
+    justify-content: center;
+    border: 2px solid orange;
+    width: 324px;
+    height: 365px;
+    margin-left: 572px;
+    border-radius: 18px;
+}
+.login{
+    font-size: 30px;
+    text-align: center;
+}
+.underline{
+    width: 60px;
+    height: 5px;
+    background-color: orange;
+    margin-left: 135px;
+    margin-top: -36px;
+}
+.inputs{
+    margin-top: 42px;
+    text-align: center;
+}
+.input1{
+    padding-bottom: 20px;
+    
+}
+.input2{
+    padding-bottom: 20px;
+}
+.input3{
+    padding-bottom: 20px;
+}
+.forget{
+    margin-left: 27px;
+}
+.forget span{
+    color: blue;
+    cursor: pointer;
+}
+.submit{
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 104px;
+    height: 40px;
+    color: white;
+    background-color: orange;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.gray{
+    background-color: white;
+    color: orange;
+    border: 2px solid orange;
+}
+.start{
+    margin-left: 565px;
+    margin-top: 9px;
+    border: 2px solid orange;
+    width: 344px;
+    height: 48px;
+    border-radius: 50px;
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+    /* padding: 10px */
+}
+.start:hover{
+    cursor: pointer;
+    color: white;
+    background-color: orange;
+}

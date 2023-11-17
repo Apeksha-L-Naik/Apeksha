@@ -5,6 +5,8 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import MainHeading from './Components/MainHeading';
+import Signin from './Components/Signin';
+import Course from './Components/Course'
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
         <Route index element={<Home/>}></Route>
       <Route path='about' element={<About/>}></Route>
       <Route path='contact' element={<Contact/>}></Route>
+      <Route path='signin' element={<Signin/>}></Route>
       </Route>
+      <Route path='course' element={<Course/>}></Route>
     </Routes>
     </BrowserRouter>
     </>
