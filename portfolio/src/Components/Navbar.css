@@ -1,0 +1,135 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    height: 68px;
+
+}
+.logo{
+    font-family: 'Pacifico',cursive;
+    font-size: 38px;
+    color: rgb(59, 59, 223);
+}
+.logo p{
+    margin-top: 4px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    color:  rgb(59, 59, 223);
+    font-family: 'DynaPuff', cursive;
+    
+}
+ul li{
+    list-style: none;
+    margin-left: 137px;  
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 4px;
+}
+ul li:hover{
+    cursor: pointer;
+}
+.active{
+   text-decoration: none;
+   color: rgb(59, 59, 223);
+   font-size: 20px;
+}
+.name{
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    text-align: center;
+    margin-top: -10px;
+}
+.name p{
+   font-size: 26px;
+   font-weight: 600;
+   font-family: 'Dancing Script', cursive;
+}
+.name h2{
+    font-size: 35px;
+    font-family: 'Lobster', sans-serif;
+}
+.col{
+    background-color: rgb(59, 59, 223);
+    height: 136px;
+    padding-top: 150px;
+    margin-top: 191px;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.para1{
+    margin-top: -29px;
+    font-weight: 800;
+    color: white;
+    font-family: 'Ephesis', cursive;
+    font-size: 36px;
+}
+.par{
+    margin-left: 421px;
+    font-weight: 600;
+    font-family: 'Ephesis', cursive;
+}
+.im{
+    padding-left: 550px;
+    padding-bottom: -20px;
+    height: 71px;
+}
+.im img{
+    height: 317px;
+}
+.im1{
+    padding-left: 580px;
+}
+.para2{
+    
+    margin-right: 400px;
+    margin-left: 400px;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Caveat', cursive;
+
+}
+.educate{
+    margin-left:400px ;
+    top: 10px;
+    color:rgb(59, 59, 223);
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid rgb(59, 59, 223);
+    margin-bottom: 50px;
+    padding-left: 15px ; 
+    padding-right: 15px ; 
+    border-radius: 10px;
+}
+.educate:hover{
+    background-color: rgb(59, 59, 223);
+    color: white;
+}
+.contact{
+    margin-left: 300px;
+    margin-top: -398px;
+}
+.contact p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.contact input{
+    width: 250px;
+    height: 38px;
+}
+.area textarea{
+    width: 400px;
+    height: 200px;
+}
+.im7 img{
+    margin-left: 800px;
+    margin-top: 42px;
+}

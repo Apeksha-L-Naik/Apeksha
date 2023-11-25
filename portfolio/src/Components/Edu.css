@@ -1,0 +1,20 @@
+.edu{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   text-align: start;
+   margin-left: 408px;
+   margin-top: 61px;
+}
+.ed h2{
+    color: rgb(59, 59, 223);
+}
+.ed1 span{
+    font-weight: 800;
+}
+.ed2 span{
+    font-weight: 800;
+}
+.ed3 span{
+    font-weight: 800;
+}
