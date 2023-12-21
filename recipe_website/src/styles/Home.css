@@ -1,0 +1,21 @@
+.home{
+    /* padding-left: 40%; */
+    text-align: center;
+}
+.home p{
+    /* padding-left: 4rem; */
+    text-align: center;
+}
+.home .btn{
+    padding-top: 3rem;
+    /* padding-left: 4rem; */
+    text-align: center;
+}
+.home button{
+    height: 3rem;
+    width: 6rem;
+    border-radius: 2rem;
+    font-weight: bolder;
+    background-color:  rgb(231, 238, 36);
+    border: none;
+}
